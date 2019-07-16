@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         // Label to store the counter values
-        var counterLabelTitle = createLabel(xaxis: 40, yaxis: 80, width: 140, height: 40, labelText: "Current Count")
+        var _ = createLabel(xaxis: 40, yaxis: 80, width: 140, height: 40, labelText: "Current Count")
         let counterLabel = createLabel(xaxis: 190, yaxis: 85, width: 60, height: 30, labelText: "0")
         counterLabel.layer.cornerRadius = 5
         counterLabel.backgroundColor = hexStringToUIColor(hex: "#FFFFFF")
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         self.counterLabel = counterLabel
 
         // Label to store previous counter values
-        var prevCounterLabelTitle = createLabel(xaxis: 40, yaxis: 140, width: 140, height: 40, labelText: "Previous Count")
+        var _ = createLabel(xaxis: 40, yaxis: 140, width: 140, height: 40, labelText: "Previous Count")
         let prevCounterLabel = createLabel(xaxis: 190, yaxis: 145, width: 60, height: 30, labelText: "0")
         prevCounterLabel.layer.cornerRadius = 5
         prevCounterLabel.backgroundColor = hexStringToUIColor(hex: "#FFFFFF")
